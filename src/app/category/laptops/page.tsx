@@ -10,7 +10,7 @@ interface LaptopProduct {
     name: string;
     price: number;
     specs: string;
-    category: 'gaming' | 'ultrabook' | 'budget';
+    category: 'gaming' | 'macbook' | 'budget';
     imageUrl: string; // Added image URL
 }
 
@@ -18,27 +18,35 @@ interface LaptopProduct {
 const mockLaptops: LaptopProduct[] = [
     { 
         id: 1, 
-        name: "AlphaBook Pro", 
-        price: 1499.99, 
-        specs: "Core i7, 16GB RAM, 1TB SSD",
-        category: 'ultrabook',
-        imageUrl: "/images/laptops/photo-1611186871348-b1ce696e52c9.jpeg" // Placeholder image path
+        name: "MacBook Air 13-inch M4 Chip", 
+        price: 999, 
+        specs: "M4 chip, 16GB RAM, 256GB SSD",
+        category: 'macbook',
+        imageUrl: "/images/laptops/macair.png" // Placeholder image path
     },
     { 
         id: 2, 
-        name: "Gamer Elite X", 
-        price: 1999.99, 
-        specs: "RTX 4070, 32GB RAM, 512GB SSD",
-        category: 'gaming',
-        imageUrl: "/images/laptops/photo-1717865499857-ec35ce6e65fa.jpeg" // Placeholder image path
+        name: "MacBook Air 13-inch M1 Chip", 
+        price: 599, 
+        specs: "M1 chip, 16GB RAM, 256GB SSD",
+        category: 'macbook',
+        imageUrl: "/images/laptops/macm1.jpg.avif" // Placeholder image path
     },
     { 
         id: 3, 
-        name: "Chromium Go", 
-        price: 399.99, 
-        specs: "Celeron N4500, 8GB RAM, 128GB eMMC",
-        category: 'budget',
-        imageUrl: "/images/laptops/G03.jpg" // Placeholder image path
+        name: "MacBook Air 13-inch M2 Chip", 
+        price: 699, 
+        specs: "M2 chip, 16GB RAM, 256GB SSD",
+        category: 'macbook',
+        imageUrl: "/images/laptops/macm2.jpg.avif" // Placeholder image path
+    },
+    { 
+        id: 4, 
+        name: "MacBook Air 13-inch M2 Chip", 
+        price: 899, 
+        specs: "M3 chip, 16GB RAM, 256GB SSD",
+        category: 'macbook',
+        imageUrl: "/images/laptops/macm3.jpg.avif" // Placeholder image path
     },
 ];
 
