@@ -116,7 +116,7 @@ const LaptopListingPage: React.FC = () => {
                                 </h2>
                                 <span className={`inline-block text-xs font-medium px-2 py-0.5 rounded ${
                                     laptop.category === 'gaming' ? 'bg-red-900/50 text-red-300' :
-                                    laptop.category === 'ultrabook' ? 'bg-green-900/50 text-green-300' :
+                                    laptop.category === 'macbook' ? 'bg-green-900/50 text-green-300' :
                                     'bg-yellow-900/50 text-yellow-300'
                                 } mb-2`}>
                                     {laptop.category.charAt(0).toUpperCase() + laptop.category.slice(1)}
